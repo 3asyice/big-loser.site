@@ -1,0 +1,39 @@
+html, body {
+  background-color: rgba(30, 0, 0, 1);
+  height:100%;
+  margin:0 auto;
+  user-select: none;
+  width:100%;
+  background: url('https://raw.githubusercontent.com/3asyice/MirrorNEWS/main/imagens/InShot_20240816_170151661.jpg') no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+h1 {
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(255, 255, 255, 1);
+  color:rgba(255, 255, 255, 1);
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  font-stretch: 0.5px;
+  letter-spacing: 16px;
+  font-size: 25px;
+}
+.l4 {
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(24, 0, 255, 1);
+  color:rgba(24, 0, 255, 1);
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  font-stretch: 0.5px;
+  letter-spacing: 16px;
+  font-size: 35px;
+  
+}
+p {
+  color:rgba(250, 250, 250, 1);
+  font-size: 12px;
+  font-weight: normal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align:justify;
+  margin:12px;
+}
