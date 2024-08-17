@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MirrorNEWS</title>
+  <link rel="stylesheet" href="./news/style.css">
+</head>
+<style>
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    user-select: none;
+    display: inline-flexbox;
+    background: url('https://raw.githubusercontent.com/3asyice/MirrorNEWS/main/imagens/InShot_20240816_170151661.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3em !important;
+    font-family:courier !important;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+  }
+
+  .cracked-text {
+    color: white;
+    font-size: 80px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    z-index: 10;
+    position: relative;
+  }
+
+  #crack-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    pointer-events: none;
+  }
+  p {
+    font-family: courier;
+    text-align: center;
+
+  }
+</style>
+
+<body>
+  <div class="container">
+    <h1 class="cracked-text">MirrorNEWS</h1>
+    <canvas id="crack-effect"></canvas>
+  </div>
+<p onclick="location.href='./themirrormaio.html'">MirrorMai</p>
+<p>MirrorJun</p>
+<p>MirrorJul</p>
+<p>MirrorAgo</p>
+</body>
+<script src='./news/main.js'>
+</script>
+
+</html>
